@@ -1,13 +1,12 @@
 # Encryption-Decryption
 
 ## Program-Overview
-    This program will encrypt or decrypt a message that is given to it by the user. The program will use a currently existing key or generate one for the user.
+This program will encrypt or decrypt a message that is given to it by the user. The program will use a currently existing key or generate one for the user.
     The program works as follows:
         - If the user would like to encrypt:
             - The program will check for an existing key, if the key
             does not exist, the program will generate a new key and save
-            it to a file in the current directory in a file called      secureKey.txt. The encrypted message will be printed to the console.
-        
+            it to a file in the current directory in a file called secureKey.txt. The encrypted message will be printed to the console.
         - If the user would like to decrypt:
             - The program will check for a key in a file called secureKey.txt. The program will use this key to decrypt the encrypted message provided by the user.
     
