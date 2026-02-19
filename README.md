@@ -10,7 +10,7 @@ This program will encrypt or decrypt a message that is given to it by the user. 
         - If the user would like to decrypt:
             - The program will check for a key in a file called secureKey.txt. The program will use this key to decrypt the encrypted message provided by the user.
     
-    ## How to run the program
+## How to run the program
         - The program requires the following dependencies:
             - python 3.13.1
             - pip
