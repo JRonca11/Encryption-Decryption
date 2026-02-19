@@ -12,7 +12,7 @@ This program will encrypt or decrypt a message that is given to it by the user. 
     
 ## How to run the program
 The program requires the following dependencies:\
-            ** -python 3.13.1\
+                 -python 3.13.1\
             - pip\
             - Python's Cryptography library\
                     - install with the following command: pip install cryptography\
