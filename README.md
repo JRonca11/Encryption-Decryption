@@ -19,7 +19,7 @@ The program requires the following dependencies:
         - Important Note:
             - The program expects the key to be stored in a file called secureKey.txt stored in the same directory. If the key is stored in a file with a different name or is not in the same directory as the program, the decryption will not run or the message will be encrypted with a newly generated key.
 
-##Program Limitations
+## Program Limitations
     - This program is intended only for educational use and purposes and should not be used to securing or storing sensitive information.
         
-##Responsible Use
+## Responsible Use
