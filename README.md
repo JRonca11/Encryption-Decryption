@@ -1,6 +1,6 @@
 # Encryption-Decryption
 
-    ## Program-Overview
+    # Program-Overview
     This program will encrypt or decrypt a message that is given to it by the user. The program will use a currently existing key or generate one for the user.
     The program works as follows:
         - If the user would like to encrypt:
