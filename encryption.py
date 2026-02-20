@@ -28,7 +28,7 @@ def decryptMessage(key,message):
 while True:
     method = input("Type E for encryption or D for decryption ")
     
-    if (method != 'D' and method != 'E'):
+    if (method != 'D' and method != 'd' and method != 'E' and method != 'e'):
         print("You must enter an E or D")
     else:
         break
@@ -47,7 +47,7 @@ else:
         print("Could not open and read file.")
 
 
-if method == 'D':
+if method == 'D' or method == 'd':
     message = input("Enter your encrypted message to decrypt:")
     message = message.encode('utf-8')
     decryptMessage(key,message)
