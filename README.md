@@ -23,4 +23,5 @@ The program requires the following dependencies:
 - This program is intended only for educational use and purposes and should not be used to secure or store sensitive information.
         
 ## Responsible Use
-- By using this program you agree to not use or modifiy the code to create any ransomware progams, encrypt any malware or malicious files, or access any personal or sensitivite data. This program is for educational purposes only.
+- By using this program you agree to not use or modify the code to create any ransomware programs, encrypt any malware or malicious files, or access any personal or sensitive data. This program is for educational purposes only.
+
