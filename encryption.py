@@ -13,14 +13,15 @@ def encryptMessage(key,message):
         encryptedMessage = secureKey.encrypt(message)
         print(encryptedMessage)
     except:
-        print("Could not decryptMessage")
+        print("Could not encryptMessage")
+
 
 
 def decryptMessage(key,message):
     try:
         secureKey = Fernet(key)
         decryptedMessage = secureKey.decrypt(message)
-        print(decryptedMessage)
+        print(decryptedMessage.decode('utf-8'))
     except:
         print("Could not decryptMessage")
 
@@ -47,12 +48,14 @@ else:
 
 
 if method == 'D':
-    message = input("Enter your message to decrypt:")
+    message = input("Enter your encrypted message to decrypt:")
     message = message.encode('utf-8')
     decryptMessage(key,message)
 
 else:
     message = input("Enter your message to encrypt:")
+    message = message.encode('utf-8')
     encryptMessage(key,message)
+
 
 
